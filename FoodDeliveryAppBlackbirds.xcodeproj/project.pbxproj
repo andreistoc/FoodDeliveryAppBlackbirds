@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2723CD9A25DAA561009DEE9C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723CD9925DAA561009DEE9C /* Helper.swift */; };
+		2723CD9F25DAB1B4009DEE9C /* OrderForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723CD9E25DAB1B4009DEE9C /* OrderForm.swift */; };
 		27754FD3258CE3B800983FAD /* FoodDeliveryAppBlackbirdsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754FD2258CE3B800983FAD /* FoodDeliveryAppBlackbirdsApp.swift */; };
 		27754FD5258CE3B800983FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754FD4258CE3B800983FAD /* ContentView.swift */; };
 		27754FD7258CE3B900983FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27754FD6258CE3B900983FAD /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		2723CD9925DAA561009DEE9C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		2723CD9E25DAB1B4009DEE9C /* OrderForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderForm.swift; sourceTree = "<group>"; };
 		27754FCF258CE3B800983FAD /* FoodDeliveryAppBlackbirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryAppBlackbirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27754FD2258CE3B800983FAD /* FoodDeliveryAppBlackbirdsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryAppBlackbirdsApp.swift; sourceTree = "<group>"; };
 		27754FD4258CE3B800983FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				27EF553525B718BB005C8F24 /* DetailRow.swift */,
 				27EF553D25B71CDB005C8F24 /* DetailView.swift */,
 				2723CD9925DAA561009DEE9C /* Helper.swift */,
+				2723CD9E25DAB1B4009DEE9C /* OrderForm.swift */,
 			);
 			path = FoodDeliveryAppBlackbirds;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				27754FD3258CE3B800983FAD /* FoodDeliveryAppBlackbirdsApp.swift in Sources */,
 				27EF553E25B71CDB005C8F24 /* DetailView.swift in Sources */,
 				27EF553125B71806005C8F24 /* Food.swift in Sources */,
+				2723CD9F25DAB1B4009DEE9C /* OrderForm.swift in Sources */,
 				2723CD9A25DAA561009DEE9C /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
