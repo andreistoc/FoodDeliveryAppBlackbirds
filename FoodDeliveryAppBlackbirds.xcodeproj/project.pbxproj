@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2723CD9A25DAA561009DEE9C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723CD9925DAA561009DEE9C /* Helper.swift */; };
 		27754FD3258CE3B800983FAD /* FoodDeliveryAppBlackbirdsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754FD2258CE3B800983FAD /* FoodDeliveryAppBlackbirdsApp.swift */; };
 		27754FD5258CE3B800983FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754FD4258CE3B800983FAD /* ContentView.swift */; };
 		27754FD7258CE3B900983FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27754FD6258CE3B900983FAD /* Assets.xcassets */; };
 		27754FDA258CE3B900983FAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27754FD9258CE3B900983FAD /* Preview Assets.xcassets */; };
 		27754FE5258CE3B900983FAD /* FoodDeliveryAppBlackbirdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754FE4258CE3B900983FAD /* FoodDeliveryAppBlackbirdsTests.swift */; };
 		27754FF0258CE3B900983FAD /* FoodDeliveryAppBlackbirdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27754FEF258CE3B900983FAD /* FoodDeliveryAppBlackbirdsUITests.swift */; };
+		27EF553125B71806005C8F24 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF553025B71806005C8F24 /* Food.swift */; };
+		27EF553625B718BB005C8F24 /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF553525B718BB005C8F24 /* DetailRow.swift */; };
+		27EF553E25B71CDB005C8F24 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF553D25B71CDB005C8F24 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2723CD9925DAA561009DEE9C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		27754FCF258CE3B800983FAD /* FoodDeliveryAppBlackbirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryAppBlackbirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27754FD2258CE3B800983FAD /* FoodDeliveryAppBlackbirdsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryAppBlackbirdsApp.swift; sourceTree = "<group>"; };
 		27754FD4258CE3B800983FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +50,9 @@
 		27754FEB258CE3B900983FAD /* FoodDeliveryAppBlackbirdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryAppBlackbirdsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27754FEF258CE3B900983FAD /* FoodDeliveryAppBlackbirdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryAppBlackbirdsUITests.swift; sourceTree = "<group>"; };
 		27754FF1258CE3B900983FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EF553025B71806005C8F24 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		27EF553525B718BB005C8F24 /* DetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRow.swift; sourceTree = "<group>"; };
+		27EF553D25B71CDB005C8F24 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +103,15 @@
 		27754FD1258CE3B800983FAD /* FoodDeliveryAppBlackbirds */ = {
 			isa = PBXGroup;
 			children = (
+				27EF553025B71806005C8F24 /* Food.swift */,
 				27754FD2258CE3B800983FAD /* FoodDeliveryAppBlackbirdsApp.swift */,
 				27754FD4258CE3B800983FAD /* ContentView.swift */,
 				27754FD6258CE3B900983FAD /* Assets.xcassets */,
 				27754FDB258CE3B900983FAD /* Info.plist */,
 				27754FD8258CE3B900983FAD /* Preview Content */,
+				27EF553525B718BB005C8F24 /* DetailRow.swift */,
+				27EF553D25B71CDB005C8F24 /* DetailView.swift */,
+				2723CD9925DAA561009DEE9C /* Helper.swift */,
 			);
 			path = FoodDeliveryAppBlackbirds;
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				27754FD5258CE3B800983FAD /* ContentView.swift in Sources */,
+				27EF553625B718BB005C8F24 /* DetailRow.swift in Sources */,
 				27754FD3258CE3B800983FAD /* FoodDeliveryAppBlackbirdsApp.swift in Sources */,
+				27EF553E25B71CDB005C8F24 /* DetailView.swift in Sources */,
+				27EF553125B71806005C8F24 /* Food.swift in Sources */,
+				2723CD9A25DAA561009DEE9C /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
