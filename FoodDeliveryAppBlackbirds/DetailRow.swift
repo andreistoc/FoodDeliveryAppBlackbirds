@@ -11,6 +11,8 @@ struct DetailRow: View {
     
     let food: Food
     
+    @Binding var showOrderSheet: Bool
+    
     var body: some View {
         HStack {
             VStack {
@@ -19,7 +21,7 @@ struct DetailRow: View {
             }
             Spacer()
             Button(action: {
-                print("Order received.")
+                showOrderSheet = true
             }, label: {
                 Text("ORDER").foregroundColor(.white)
             }).frame(width: 80, height: 50).background(Color.orange).cornerRadius(10)
@@ -29,6 +31,6 @@ struct DetailRow: View {
 
 struct DetailRow_Previews: PreviewProvider {
     static var previews: some View {
-        DetailRow(food: foodData[0]).previewLayout(.sizeThatFits)
+        DetailRow(food: foodData[0], showOrderSheet: .constant(false)).previewLayout(.sizeThatFits)
     }
 }

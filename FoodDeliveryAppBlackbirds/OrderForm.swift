@@ -21,7 +21,10 @@ struct OrderForm: View {
     
     @State var userFeedback = 0.0
     
+    @Binding var showOrderSheet: Bool
+    
     var body: some View {
+        NavigationView {
         Form {
             Section {
                 Toggle(isOn: $specialRequest, label: {
@@ -53,12 +56,26 @@ struct OrderForm: View {
                     Image(systemName: "hand.thumbsup")
                 }
             }
+            
+            Section {
+                Button(action: {
+                    print("Order placed.")
+                }, label: {
+                    Text("Place Order")
+                })
+            }
         }
+        }.navigationTitle("Your Order")
+        .navigationBarItems(leading: Button(action: {
+            showOrderSheet = false
+        }, label: {
+            Text("Cancel")
+        }))
     }
 }
 
 struct OrderForm_Previews: PreviewProvider {
     static var previews: some View {
-        OrderForm()
+        OrderForm(showOrderSheet: .constant(false))
     }
 }
